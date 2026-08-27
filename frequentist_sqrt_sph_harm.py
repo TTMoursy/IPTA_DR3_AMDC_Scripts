@@ -11,7 +11,7 @@ from enterprise.signals import parameter, utils, signal_base, selections, white_
 from enterprise_extensions.blocks import dm_noise_block
 from la_forge import core
 from defiant import nmpfpcos_jax_v1 as nj
-from maps.updateC import (
+from maps_functions import (
     blm2alm, 
     alm2clm,
     make_blm2alm_cache, 
